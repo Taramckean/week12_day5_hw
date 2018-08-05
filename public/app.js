@@ -27,6 +27,9 @@ const createList = function(newsStories){
     newsImage.src = newsStory.urlToImage;
     li.appendChild(newsImage);
     news.appendChild(li);
+    li.addEventListener('click', function(){
+       window.location = newsStory.url;
+    })
   })
 }
 
