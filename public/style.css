@@ -2,7 +2,7 @@ h1{
   font-size: 35px;
   font-family:arial ;
   text-align: center;
-  color: #202020;
+  color: #064e37;
   text-transform: uppercase;
 }
 
@@ -10,10 +10,11 @@ li{
   margin-bottom:10px;
   padding: 15px 15px 15px;
   color:#0a6347;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   font-family: arial;
   max-width: 300px;
   border-right: 2px #1e9f75 dotted;
+  border-bottom: 1px black solid;
 }
 li:hover{
   color: green;
@@ -24,11 +25,19 @@ ul{
   display: flex;
 flex-direction: row;
 flex-wrap: wrap;
+margin-left: 86px;
 }
 
 body{
   background-color: white;
   margin:auto;
+}
+
+p{
+  color:black;
+ font-style: italic;
+ font-size: 14px;
+ text-decoration: none;
 }
 
 img{
@@ -43,6 +52,15 @@ img:hover{
   opacity: 0.8;
 }
 
+select{
+  margin: 30px 30px 20px;
+}
+
+.centered{
+  margin:auto;
+  text-align: center;
+}
+
 .nav{
   display: flex;
   flex-direction:column;
@@ -52,5 +70,5 @@ img:hover{
   top:0;
   z-index:10;
   color:white;
-  border-bottom: #8fcfba 1px dotted;
+  border-bottom: #8fcfba 2px dotted;
 }
